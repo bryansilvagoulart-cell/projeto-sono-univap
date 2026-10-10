@@ -1,0 +1,80 @@
+# =========================
+# AMBIENTES PYTHON
+# =========================
+.venv/
+.venv313/
+venv/
+env/
+
+# =========================
+# PYTHON / CACHE
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# VS CODE / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# SISTEMA OPERACIONAL
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# SEGREDOS / CONFIGURAÇÕES LOCAIS
+# =========================
+.env
+.env.*
+*.env
+secrets.*
+config_local.*
+*.pem
+*.key
+
+# =========================
+# DADOS GRANDES / GERADOS
+# =========================
+data/raw/
+data/processed/
+
+# =========================
+# MODELOS TREINADOS / BINÁRIOS
+# =========================
+models/
+*.joblib
+*.pt
+*.pth
+*.npy
+*.npz
+
+# =========================
+# ARQUIVOS TEMPORÁRIOS / LOGS
+# =========================
+*.log
+*.tmp
+*.temp
+~$*
+*.bak
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# MYSQL / EXPORTS LOCAIS
+# =========================
+*.sql
+*.dump
+*.sqlite
+*.db
