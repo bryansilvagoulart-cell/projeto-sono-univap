@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+scikit-learn
+torch
+joblib
+mysql-connector-python
+fastapi
+uvicorn
+tzdata

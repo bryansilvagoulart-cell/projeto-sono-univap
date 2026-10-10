@@ -393,8 +393,8 @@ Os diretórios de dados brutos, dados processados, ambientes virtuais e modelos 
 ### 1. Clonar o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd Projeto_Sono
+git clone https://github.com/bryansilvagoulart-cell/projeto-sono-univap.git
+cd projeto-sono-univap
 ```
 
 ### 2. Criar ambiente virtual
@@ -409,7 +409,7 @@ py -3.13 -m venv .venv313
 ### 3. Instalar dependências principais
 
 ```powershell
-pip install pandas numpy scipy scikit-learn torch joblib mysql-connector-python fastapi uvicorn
+pip install -r requirements.txt
 ```
 
 ### 4. Banco de dados
