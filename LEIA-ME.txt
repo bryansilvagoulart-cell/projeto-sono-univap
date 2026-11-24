@@ -1,0 +1,122 @@
+PROJETO SONO - ENTREGA FINAL
+Engenharia da Computação - UNIVAP - 2026
+
+Integrantes:
+Bryan Goulart Silva
+Emily Colen Honório
+
+------------------------------------------------------------
+1. DESCRIÇÃO
+------------------------------------------------------------
+
+Este pacote contém o código-fonte, banco de dados, documentação
+e referências utilizadas no Projeto Sono.
+
+O sistema realiza uma análise experimental de estágios do sono
+a partir de sinais de frequência cardíaca e acelerometria.
+
+As classes utilizadas pelo modelo final são:
+- Wake
+- Light
+- Deep
+- REM
+
+O projeto possui finalidade acadêmica e experimental.
+Os resultados não representam diagnóstico médico.
+
+------------------------------------------------------------
+2. ESTRUTURA DA ENTREGA
+------------------------------------------------------------
+
+codigo-fonte/
+Contém os scripts Python, API FastAPI, dashboard web,
+arquivo de inicialização, requirements.txt e README.md.
+
+banco-de-dados/
+Contém:
+- schema.sql
+- backup_projeto_sono_final.sql
+- configurar_usuario_app.sql
+- diagrama-er.png
+- instrucoes-banco.md
+
+referencias/
+Contém:
+- referencias-abnt.pdf
+- links-consultados.md
+
+documentacao/
+Contém:
+- Artigo_INIC_2026_Final_Projeto_Sono.pdf
+- manual-de-uso.pdf
+
+------------------------------------------------------------
+3. COMO EXECUTAR
+------------------------------------------------------------
+
+1. Restaurar o banco MySQL utilizando os arquivos da pasta
+   banco-de-dados.
+
+2. Criar o usuário da aplicação utilizando:
+   configurar_usuario_app.sql
+
+3. Criar o ambiente virtual Python:
+
+   py -3.13 -m venv .venv313
+
+4. Ativar o ambiente:
+
+   .\.venv313\Scripts\Activate.ps1
+
+5. Instalar as dependências:
+
+   pip install -r requirements.txt
+
+6. Executar o arquivo:
+
+   INICIAR_SISTEMA_V3.bat
+
+7. Informar a senha do usuário projeto_sono_app quando
+   solicitado.
+
+8. Aguardar a API iniciar e depois abrir o dashboard.
+
+Instruções mais detalhadas estão disponíveis no README.md
+e no arquivo manual-de-uso.pdf.
+
+------------------------------------------------------------
+4. BANCO DE DADOS
+------------------------------------------------------------
+
+Banco:
+projeto_sono
+
+SGBD utilizado:
+MySQL 8.0
+
+O arquivo backup_projeto_sono_final.sql contém a estrutura
+e os dados utilizados na demonstração final.
+
+O arquivo schema.sql contém somente a estrutura do banco.
+
+------------------------------------------------------------
+5. REPOSITÓRIO
+------------------------------------------------------------
+
+GitHub:
+https://github.com/bryansilvagoulart-cell/projeto-sono-univap
+
+O repositório contém o histórico de desenvolvimento do projeto.
+
+------------------------------------------------------------
+6. OBSERVAÇÕES
+------------------------------------------------------------
+
+Arquivos de ambiente virtual, datasets brutos, arquivos temporários
+e senhas não estão incluídos no repositório.
+
+A senha do banco não é armazenada nos arquivos do projeto.
+Ela é solicitada no momento da execução da API.
+
+Para detalhes sobre funcionamento, arquitetura e limitações,
+consultar o README.md, o artigo final e o manual de uso.
